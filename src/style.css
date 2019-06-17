@@ -1,0 +1,137 @@
+*
+{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  /border:solid 2px red;
+}
+html,body
+{
+  background-color:#e0a1ed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  margin:0;
+  font-size:20px;
+  font-family:微軟正黑體;
+  font-weight:800;  
+}
+a
+{
+  color:initial;
+  text-decoration:initial;
+}
+.box
+{
+  width:400px;
+  background-color:#d5d4d6;
+  box-shadow:0px 0px 50px rgba(0,0,0,0.5);
+  transition:0.5s
+}
+.box:hover
+{
+  box-shadow:5px 5px 60px rgba(0,0,0,0.4);
+  transform:translate(-15px,-15px);
+}
+.box:hover .top
+{
+  height:250px;
+}
+.top
+{
+  background-image:url(https://qaayy444.github.io/bgd/9aa682fe937ba83ceb5979ef8f14ej75.JPG);
+  background-position:center;
+  background-size:cover;
+  height:330px;
+  position:relative;
+  transition:0.5s;
+}
+.top .tag
+{
+  width:25px;
+  height:50px;
+  background-color:#1b39e5;
+  float:right;
+  margin-right:20px;
+}
+.top .name
+{
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  padding:5px 15px;
+  letter-spacing:3px;
+  color:white;
+  font-size:28px;
+  font-weight:300;
+  background:linear-gradient(transparent 10%,black 70%);
+  width:100%;
+  padding-top:30px;
+  padding-bottom:15px;
+}
+.top .name .smallText
+{
+  font-size:16px;
+}
+.cirbutton
+{
+  width:50px;
+  height:50px;
+  background-color:#e5e85c;
+  border-radius:50%;
+  position:absolute;
+  right:10px;
+  bottom:-20px;
+}
+.bottom
+{
+  padding:10px 15px 15px 20px;
+  letter-spacing:2px;
+}
+.bottom li
+{
+  padding:5px 0px;
+}
+.bottom h3
+{
+  display:inline-block;
+}
+.bottom ul
+{
+  list-style:none;
+  padding-left:0px;
+}
+.buttons
+{
+  margin-top:30px;
+}
+
+.buttons .btn
+{
+  display:inline-block;
+  padding:10px 25px;
+  letter-spacing:2px;
+}
+.btnWebsite
+{
+  border:solid 1px black;
+  background-color:#f26d60;
+  color:white;
+  transition:0.5s;
+}
+.btnWebsite:hover
+{
+  background-color:#83d3e2;
+}
+.btnNews
+{
+  background-color:#f28f32;
+  border:solid 1px black;
+  float:right;
+}
+.btnNews:hover
+{
+  background-color:#edaabf;
+}
